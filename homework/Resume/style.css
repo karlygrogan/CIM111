@@ -1,0 +1,57 @@
+body {
+    background-color: #FFFFFF ;
+}
+h1 {
+  font-size: 200%;
+}
+
+
+.about {
+  text-align: center;
+  color: #191970;
+  font-family: 'Merriweather', serif;
+}
+
+a:link {
+  color: pink;
+}
+a:visited {
+  color: #C71585;
+}
+a:hover {
+  background-color: black;
+  color: white;
+}
+a:active{
+  color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+#contact {
+  color: #D2B48C;
+  font-family: 'Merriweather', serif
+}
+
+#education {
+    color: #ADD8E6;
+    font-family: 'Merriweather', serif
+}
+#educationtextcolor {
+  color: #ADD8E6;
+  font-weight: 900;
+}
