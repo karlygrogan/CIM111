@@ -8,19 +8,19 @@ h1 {
 
 .about {
   text-align: center;
-  color: #191970;
-  font-family: 'Merriweather', serif;
+  color: #FFFFFF;
+  font-family: 'Yeseva One', cursive;
 }
 
 a:link {
   color: pink;
 }
 a:visited {
-  color: #C71585;
+  color: midnightblue;
 }
 a:hover {
-  background-color: black;
-  color: white;
+  background-color: tan;
+  color: lightblue;
 }
 a:active{
   color: red;
@@ -35,23 +35,106 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-#contact {
+.tanheadingcolor {
   color: #D2B48C;
-  font-family: 'Merriweather', serif
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+}
+.tantextcolor{
+  color: #D2B48C;
+  font-family: 'Merriweather', serif;
 }
 
-#education {
+.ltblueheadingcolor {
     color: #ADD8E6;
-    font-family: 'Merriweather', serif
+    font-family: 'Merriweather', serif;
 }
-#educationtextcolor {
+.ltbluetextcolor {
   color: #ADD8E6;
   font-weight: 900;
+  font-family: 'Merriweather', serif;
+}
+
+#headingborder {
+  border: 2px solid lightblue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: tan;
+  text-align: left;
+  padding: 8px;
+}
+
+.Honors{
+  font-size: 150%;
+}
+
+#workexpborder {
+  border: 2px solid lightblue;
+  margin-left: 0;
+  margin-right: 0;
+  width: 90%;
+  background-color: #FFFFFF;
+  text-align: left;
+  padding: 8px;
+}
+
+#tableborder {
+  border: 2px solid lightblue;
+  margin-left: 0;
+  margin-right: 0;
+  width: 75%;
+  background-color: #FFFFFF;
+  text-align: left;
+  padding: 8px;
+}
+
+#normal {
+  font-style: normal;
+}
+
+#eduborder {
+  border: 2px solid tan;
+  margin-left: 0;
+  margin-right: 0;
+  width: 50%;
+  background-color: #FFFFFF;
+  text-align: left;
+  padding: 8px;
+}
+
+#listborder{
+  border: 2px solid tan;
+  margin-left: 0;
+  margin-right: 0;
+  width: 30%;
+  background-color: #FFFFFF;
+  text-align: left;
+  padding: 8px;
+}
+
+#contactborder {
+  border: 2px solid lightblue;
+  margin-left: 0;
+  margin-right: 0;
+  width: 30%;
+  background-color: #FFFFFF;
+  text-align: left;
+  padding: 8px;
+}
+
+#eduitalics{
+  font-style: italic;
+}
+
+#listitemsstyle{
+  font-style: italic;
+  font-weight: bolder;
 }
