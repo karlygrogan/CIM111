@@ -12,6 +12,17 @@ h1 {
   font-family: 'Yeseva One', cursive;
 }
 
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 a:link {
   color: pink;
 }
@@ -137,4 +148,21 @@ a:active {
 #listitemsstyle{
   font-style: italic;
   font-weight: bolder;
+}
+
+img {
+  border-radius: 8px;
+}
+
+#imgborders{
+  border: 1px solid white;
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 8px;
+}
+
+#whitespace{
+  white-space: normal;
 }
