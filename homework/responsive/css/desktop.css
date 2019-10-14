@@ -1,15 +1,19 @@
-div.grid_container1 {
+div.grid_container1{
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 10px;
+padding: 10px;
+}
+
+div.grid_container2 {
 display: grid;
 grid-template-columns: auto auto auto;
 padding: 10px;
 }
 
-.heading2{
-text-align: center;
-}
 
 
-div.grid_container2 {
+div.grid_container3 {
 display: grid;
 grid-template-columns: auto auto;
 grid-gap: 50px;
