@@ -1,0 +1,19 @@
+div.grid_container1 {
+display: grid;
+grid-template-columns: auto auto auto;
+padding: 10px;
+}
+
+.heading2{
+text-align: center;
+}
+
+
+div.grid_container2 {
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 50px;
+justify-content: space-between;
+text-align: center;
+padding: 10px;
+}

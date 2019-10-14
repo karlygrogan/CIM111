@@ -1,0 +1,22 @@
+<div class="gallery">
+  <a target="_blank" href="waterlily.jpg">
+    <img src="waterlily.jpg" alt="Waterlily" width="600" height="400">
+  </a>
+  <div class="desc">Waterlily-beachy, bohemian clothing, accessories & footwear</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="maxdevros.jpg">
+    <img src="maxdevros.jpg" alt="Max Devros" width="600" height="400">
+  </a>
+  <div class="desc">Max Devros- best breakfast and lunch in town</div>
+
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="tacs.jpg">
+    <img src="tacs.jpg" alt="Third Ave Chocolate Shop" width="600" height="400">
+  </a>
+  <div class="desc">Third Ave Chocolate Shop-delicious, handmade chocolates and candies</div>
+</div>
