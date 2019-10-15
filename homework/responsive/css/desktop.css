@@ -1,3 +1,15 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 14px 16px;
+}
+
+
 div.grid_container1{
 display: grid;
 grid-template-columns: auto auto;
@@ -20,4 +32,12 @@ grid-gap: 50px;
 justify-content: space-between;
 text-align: center;
 padding: 10px;
+}
+
+div.grid_container4 {
+display: grid;
+grid-template-columns: auto auto auto;
+padding: 10px;
+justify-content: space-between;
+border-style: solid;
 }
