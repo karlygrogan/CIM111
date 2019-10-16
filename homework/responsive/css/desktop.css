@@ -21,6 +21,8 @@ div.grid_container2 {
 display: grid;
 grid-template-columns: auto auto auto;
 padding: 10px;
+height: 400;
+width: 400;
 }
 
 
