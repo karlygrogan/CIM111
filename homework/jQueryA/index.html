@@ -12,6 +12,7 @@
 	<body>
 		<header>
 			<h1 id="heading"> How to Make Chocolate Chip Cookies</h1>
+			<img src="images/cookie.jpg" alt="Cookie" id="cookiepic">
 			<p id="intro_paragraph"> Welcome! This website is solely dedicated to teaching anyone how to make homemade chocolate chip cookies. The recipe is easy and convienent step-by-step instructions to bake five dozen perfectly imperfect
 				chocolate chip cookies for any occassion.</p>
 		</header>
@@ -40,14 +41,14 @@
 					<figcaption> Mixer, Hand Mixer, or Whisk</figcaption> <img src="images/mixers.jpg" alt="Mixers" id="mixer" style="width:40%">
 				</figure>
 				<figure>
-					<figcaption> Measuring Spoons </figcaption> <img src="images/measuringspoons.jpg" alt="Spoons" id="spoons" style="width:20%">
+					<figcaption> Measuring Spoons </figcaption> <img src="images/measuringspoons.jpg" alt="Spoons" id="spoon" style="width:20%">
 				</figure>
 				<figure>
 					<figcaption> Measuring Cup </figcaption> <img src="images/measuringcup.jpg" alt="Cup" id="cup" style="width:20%">
 				</figure>
 
 				<figure>
-					<figcaption> Two Bowls </figcaption> <img src="images/largebowl.jpg" alt="Large_Bowl" id="bowls" style="width:20%">
+					<figcaption> Two Bowls </figcaption> <img src="images/largebowl.jpg" alt="Large_Bowl" id="bowl" style="width:20%">
 				</figure>
 				<figure>
 					<figcaption> Cookie Sheet </figcaption> <img src="images/sheet.jpg" alt="Sheet" id="sheet" style="width:20%">
@@ -56,27 +57,29 @@
 					<figcaption> Parchement Paper </figcaption> <img id="paper" src="images/paper.jpg" alt="Parchment_Paper" style="width:20%">
 				</figure>
 			</section>
-			<h1> Step-by-Step Instructions </h1>
-			<h2> Step 1</h2>
-			<p>Preheat your Oven to 375°F.</p>
-			<h2> Step 2</h2>
-			<p>Combine your dry ingredients, flour, baking soda, and salt, in a small bowl. Set aside. </p>
-			<h2> Step 3 </h2>
-			<p>With a mixer, beat together butter, granulated sugar, brown sugar, and vanilla extract until the mixture has a creamy consistency.</p>
-			<h2> Step 4</h2>
-			<p> Add the first egg and thoroughly beat into the Step 3 mixture. Add the second egg and beat until the mixture is back to the creamy consistency.</p>
-			<h2> Step 5</h2>
-			<p>Return to the dry ingredient mixture from Step 2. Gradually beat in approximately one cup at a time of the dry ingredient mixure into the Step 4 mixture until the combined mixture is a dough consistency.</p>
-			<h2> Step 6</h2>
-			<p>Next, fold in the chocolate chips.</p>
-			<h2> Step 7</h2>
-			<p>Form small talespoon sized balls of dough and place on a cookie sheet with parchment paper.</p>
-			<h2> Step 7</h2>
-			<p>Chill cookie sheet in the refridgerator for 30 minutes.</p>
-			<h2>Step 9</h2>
-			<p> Take cookie sheet out of the refridgerator and place into the oven. Bake for 8-10 minutes or until golden brown.</p>
-			<h2> Step 10</h2>
-			<p> ENJOY! </p>
+			<h1 id="instruction_heading"> Step-by-Step Instructions </h1>
+			<section class="instructions">
+				<h2> Step 1: </h2>
+				<p id="1">Preheat your Oven to 375°F.</p>
+				<h2> Step 2: </h2>
+				<p id="2">Combine your dry ingredients, flour, baking soda, and salt, in a small bowl. Set aside. </p>
+				<h2> Step 3: </h2>
+				<p id="3">With a mixer, beat together butter, granulated sugar, brown sugar, and vanilla extract until the mixture has a creamy consistency.</p>
+				<h2> Step 4: </h2>
+				<p id="4"> Add the first egg and thoroughly beat into the Step 3 mixture. Add the second egg and beat until the mixture is back to the creamy consistency.</p>
+				<h2> Step 5: </h2>
+				<p id="5">Return to the dry ingredient mixture from Step 2. Gradually beat in approximately one cup at a time of the dry ingredient mixure into the Step 4 mixture until the combined mixture is a dough consistency.</p>
+				<h2> Step 6: </h2>
+				<p id="6">Next, fold in the chocolate chips.</p>
+				<h2> Step 7: </h2>
+				<p id="7">Form small talespoon sized balls of dough and place on a cookie sheet with parchment paper.</p>
+				<h2> Step 8: </h2>
+				<p id="8">Chill cookie sheet in the refridgerator for 30 minutes.</p>
+				<h2>Step 9: </h2>
+				<p id="9"> Take cookie sheet out of the refridgerator and place into the oven. Bake for 8-10 minutes or until golden brown.</p>
+				<h2> Step 10: </h2>
+				<p id="10"> ENJOY! </p>
+			</section>
 		</main>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 		</script>
@@ -104,6 +107,61 @@
 						imgBig = "no";
 					}
 				});
+				$("#spoon").click(function() {
+					if (imgBig === "no") {
+						//we have not clicked the image. Make it bigger.
+						$("#spoon").css("width", "40%");
+						imgBig = "yes";
+					} else {
+						//make it smaller.
+						$("#spoon").css("width", "20%");
+						imgBig = "no";
+					}
+				});
+				$("#cup").click(function() {
+					if (imgBig === "no") {
+						//we have not clicked the image. Make it bigger.
+						$("#cup").css("width", "40%");
+						imgBig = "yes";
+					} else {
+						//make it smaller.
+						$("#cup").css("width", "20%");
+						imgBig = "no";
+					}
+				});
+				$("#bowl").click(function() {
+					if (imgBig === "no") {
+						//we have not clicked the image. Make it bigger.
+						$("#bowl").css("width", "40%");
+						imgBig = "yes";
+					} else {
+						//make it smaller.
+						$("#bowl").css("width", "20%");
+						imgBig = "no";
+					}
+				});
+				$("#sheet").click(function() {
+					if (imgBig === "no") {
+						//we have not clicked the image. Make it bigger.
+						$("#sheet").css("width", "40%");
+						imgBig = "yes";
+					} else {
+						//make it smaller.
+						$("#sheet").css("width", "20%");
+						imgBig = "no";
+					}
+				});
+				$("#paper").click(function() {
+					if (imgBig === "no") {
+						//we have not clicked the image. Make it bigger.
+						$("#paper").css("width", "40%");
+						imgBig = "yes";
+					} else {
+						//make it smaller.
+						$("#paper").css("width", "20%");
+						imgBig = "no";
+					}
+				});
 				$("#heading").click(function() {
 					if (headingClicked === "no") {
 						//we have not clicked the heading. make it smaller.
@@ -114,6 +172,36 @@
 						$("#heading").css("font-size", "60px");
 						bcnClicked = "no";
 					}
+				});
+				$("#1").mouseover(function() {
+					$("#1").css("font-size", "20px");
+				});
+				$("#2").mouseover(function() {
+					$("#2").css("font-size", "20px");
+				});
+				$("#3").mouseover(function() {
+					$("#3").css("font-size", "20px");
+				});
+				$("#4").mouseover(function() {
+					$("#4").css("font-size", "20px");
+				});
+				$("#5").mouseover(function() {
+					$("#5").css("font-size", "20px");
+				});
+				$("#6").mouseover(function() {
+					$("#6").css("font-size", "20px");
+				});
+				$("#7").mouseover(function() {
+					$("#7").css("font-size", "20px");
+				});
+				$("#8").mouseover(function() {
+					$("#8").css("font-size", "20px");
+				});
+				$("#9").mouseover(function() {
+					$("#9").css("font-size", "20px");
+				});
+				$("#10").mouseover(function() {
+					$("#10").css("font-size", "20px");
 				});
 			});
 

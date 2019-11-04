@@ -1,0 +1,125 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script>
+	var imgBig = "no";
+	var headingClicked = "no";
+	$(document).ready(function() {
+		$("#hide").click(function() {
+			$("#ing").hide();
+		});
+		$("#show").click(function() {
+			$("#ing").show();
+		});
+		$("#intro_paragraph").click(function() {
+			$("#intro_paragraph").html("Happy Baking!");
+		});
+		$("#mixer").click(function() {
+			if (imgBig === "no") {
+				//we have not clicked the image. Make it bigger.
+				$("#mixer").css("width", "80%");
+				imgBig = "yes";
+			} else {
+				//make it smaller.
+				$("#mixer").css("width", "40%");
+				imgBig = "no";
+			}
+		});
+		$("#spoon").click(function() {
+			if (imgBig === "no") {
+				//we have not clicked the image. Make it bigger.
+				$("#spoon").css("width", "40%");
+				imgBig = "yes";
+			} else {
+				//make it smaller.
+				$("#spoon").css("width", "20%");
+				imgBig = "no";
+			}
+		});
+		$("#cup").click(function() {
+			if (imgBig === "no") {
+				//we have not clicked the image. Make it bigger.
+				$("#cup").css("width", "40%");
+				imgBig = "yes";
+			} else {
+				//make it smaller.
+				$("#cup").css("width", "20%");
+				imgBig = "no";
+			}
+		});
+		$("#bowl").click(function() {
+			if (imgBig === "no") {
+				//we have not clicked the image. Make it bigger.
+				$("#bowl").css("width", "40%");
+				imgBig = "yes";
+			} else {
+				//make it smaller.
+				$("#bowl").css("width", "20%");
+				imgBig = "no";
+			}
+		});
+		$("#sheet").click(function() {
+			if (imgBig === "no") {
+				//we have not clicked the image. Make it bigger.
+				$("#sheet").css("width", "40%");
+				imgBig = "yes";
+			} else {
+				//make it smaller.
+				$("#sheet").css("width", "20%");
+				imgBig = "no";
+			}
+		});
+		$("#paper").click(function() {
+			if (imgBig === "no") {
+				//we have not clicked the image. Make it bigger.
+				$("#paper").css("width", "40%");
+				imgBig = "yes";
+			} else {
+				//make it smaller.
+				$("#paper").css("width", "20%");
+				imgBig = "no";
+			}
+		});
+		$("#heading").click(function() {
+			if (headingClicked === "no") {
+				//we have not clicked the heading. make it smaller.
+				$("#heading").css("font-size", "30px");
+				headingClicked = "yes";
+			} else {
+				//make it go back to big.
+				$("#heading").css("font-size", "60px");
+				bcnClicked = "no";
+			}
+		});
+		$("#1").mouseover(function() {
+			$("#1").css("font-size", "20px");
+		});
+		$("#2").mouseover(function() {
+			$("#2").css("font-size", "20px");
+		});
+		$("#3").mouseover(function() {
+			$("#3").css("font-size", "20px");
+		});
+		$("#4").mouseover(function() {
+			$("#4").css("font-size", "20px");
+		});
+		$("#5").mouseover(function() {
+			$("#5").css("font-size", "20px");
+		});
+		$("#6").mouseover(function() {
+			$("#6").css("font-size", "20px");
+		});
+		$("#7").mouseover(function() {
+			$("#7").css("font-size", "20px");
+		});
+		$("#8").mouseover(function() {
+			$("#8").css("font-size", "20px");
+		});
+		$("#9").mouseover(function() {
+			$("#9").css("font-size", "20px");
+		});
+		$("#10").mouseover(function() {
+			$("#10").css("font-size", "20px");
+		});
+	});
+
+</script>
