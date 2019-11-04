@@ -9,7 +9,7 @@
 
    <body>
       <header>
-         <h1>Visit Barcelona</h1>
+         <h1 id="bcn">Visit Barcelona</h1>
          <p>A few things you can see in Barcelona, if you come at the right time.</p>
          <nav>
             <a href="#" id="disseny">Design Museum</a>
@@ -34,9 +34,37 @@
       </main>
 
       <!-- Scripts -->
-      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-      <script type="text/javascript">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+      </script>
+      <script>
+         var bcnClicked = false;
+         var imgBig = "no";
          $(document).ready(function() {
+            $("#bcn").click(function() {
+               if (bcnClicked === true) {
+                  //bcnClicked is true. We have to make the font small.
+                  $("#bcn").css("font-size", "40px");
+                  bcnClicked = false;
+               } else {
+                  //bcnClicked is false. We have to make the font big.
+                  $("#bcn").css("font-size", "60px");
+                  bcnClicked = true;
+               }
+            });
+            $("#bcn").click(function() {
+               if (imgBig === "no") {
+                  //we have not clicked the image. Make it bigger.
+                  $("#main_pic").css("width", "800px");
+                  imgBig = "yes";
+               } else {
+                  //make it smaller.
+                  $("#main_pic").css("width", "400px");
+                  imgBig = "no";
+
+
+               }
+            });
+            //$("#a_box").html("<p>This is a paragraph.</p>");
 
          });
 

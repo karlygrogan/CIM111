@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<title>How To Make Chocolate Chip Cookies</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<h1 class="heading"> How to Make Chocolate Chip Cookies</h1>
+			<p class="intro_paragraph"> Welcome! This website is solely dedicated to teaching anyone how to make homemade chocolate chip cookies. The recipe is easy and convienent step-by-step instructions to bake five dozen perfectly imperfect
+				chocolate chip cookies for any occassion.</p>
+		</header>
+		<main>
+			<h1 class="TYNS"> Things You Need To Succeed</h1>
+			<section class="ingredients">
+				<h2> Ingredients </h2>
+				<ul id="ing">
+					<li> 2 1/4 cups all-purpose flour </li>
+					<li> 1 teaspoon baking soda</li>
+					<li>1 teaspoon salt</li>
+					<li>1 cup (2 sticks) butter, softened</li>
+					<li>3/4 cup granulated sugar</li>
+					<li>3/4 cup packed brown sugar</li>
+					<li>1 teaspoon vanilla extract</li>
+					<li>2 large eggs</li>
+					<li>2 cups (12-oz. pkg.) semi sweet chocolate chips</li>
+				</ul>
+				<button id="hide">Hide</button>
+				<button id="show">Show</button>
+			</section>
+
+			<h2 class="utensils">Utensils</h2>
+			<ul class="grid_container1">
+				<li>
+					<figcaption> Mixer, Hand Mixer, or Whisk</figcaption> <img src="images/mixers.jpg" alt="Mixers" id="mixer" style="width:40%">
+				</li>
+				<li>
+					<figcaption> Measuring Spoons </figcaption> <img src="images/measuringspoons.jpg" alt="Spoons" id="spoons" style="width:20%">
+				</li>
+				<li>
+					<figcaption> Measuring Cup </figcaption> <img src="images/measuringcup.jpg" alt="Cup" id="cup" style="width:20%">
+				</li>
+
+				<li>
+					<figcaption> Two Bowls </figcaption> <img src="images/largebowl.jpg" alt="Large_Bowl" id="bowls" style="width:20%">
+				</li>
+				<li>
+					<figcaption> Cookie Sheet </figcaption> <img src="images/sheet.jpg" alt="Sheet" id="sheet" style="width:20%">
+				</li>
+				<li>
+					<figcaption> Parchement Paper </figcaption> <img id="paper" src="images/paper.jpg" alt="Parchment_Paper" style="width:20%">
+				</li>
+			</ul>
+			<h1> Step-by-Step Instructions </h1>
+			<h2> Step 1</h2>
+			<p> Preheat your Oven to 375°F.</p>
+			<h2> Step 2</h2>
+			<p>Combine your dry ingredients, flour, baking soda, and salt, in a small bowl. Set aside. </p>
+			<h2> Step 3 </h2>
+			<p>With a mixer, beat together butter, granulated sugar, brown sugar, and vanilla extract until the mixture has a creamy consistency.</p>
+			<h2> Step 4</h2>
+			<p> Add the first egg and thoroughly beat into the Step 3 mixture. Add the second egg and beat until the mixture is back to the creamy consistency.</p>
+			<h2> Step 5</h2>
+			<p>Return to the dry ingredient mixture from Step 2. Gradually beat in approximately one cup at a time of the dry ingredient mixure into the Step 4 mixture until the combined mixture is a dough consistency.</p>
+			<h2> Step 6</h2>
+			<p>Next, fold in the chocolate chips.</p>
+			<h2> Step 7</h2>
+			<p>Form small talespoon sized balls of dough and place on a cookie sheet with parchment paper.</p>
+			<h2> Step 7</h2>
+			<p>Chill cookie sheet in the refridgerator for 30 minutes.</p>
+			<h2>Step 9</h2>
+			<p> Take cookie sheet out of the refridgerator and place into the oven. Bake for 8-10 minutes or until golden brown.</p>
+			<h2> Step 10</h2>
+			<p> ENJOY! </p>
+		</main>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+		</script>
+		<script>
+			$(document).ready(function() {
+				$("#hide").click(function() {
+					$("#ing").hide();
+				});
+				$("#show").click(function() {
+					$("#ing").show();
+				});
+			});
+
+		</script>
+	</body>
+
+</html>

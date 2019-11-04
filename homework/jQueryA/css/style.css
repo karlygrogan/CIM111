@@ -1,0 +1,29 @@
+.heading {
+  text-align: center;
+  font-family: "Yeseva One", cursive;
+  font-size: 60px;
+}
+
+.intro_paragraph {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  padding: 8px;
+}
+.ingredients {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+}
+.TYNS {
+  font-family: "Yeseva One", cursive;
+}
+.utensils {
+  font-family: "Merriweather", serif;
+}
+
+.grid_container1 {
+  font-family: "Merriweather", serif;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
