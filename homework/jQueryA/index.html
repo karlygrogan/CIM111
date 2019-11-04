@@ -81,6 +81,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 		</script>
 		<script>
+			var imgBig = "no";
 			$(document).ready(function() {
 				$("#hide").click(function() {
 					$("#ing").hide();
@@ -90,6 +91,19 @@
 				});
 				$("#intro_paragraph").click(function() {
 					$("#intro_paragraph").html("Happy Baking!");
+				});
+				$("#mixer").click(function() {
+					if (imgBig === "no") {
+						//we have not clicked the image. Make it bigger.
+						$("#mixer").css("width", "80%");
+						imgBig = "yes";
+					} else {
+						//make it smaller.
+						$("#mixer").css("width", "40%");
+						imgBig = "no";
+
+
+					}
 				});
 			});
 
