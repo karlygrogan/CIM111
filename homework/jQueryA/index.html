@@ -12,7 +12,7 @@
 	<body>
 		<header>
 			<h1 class="heading"> How to Make Chocolate Chip Cookies</h1>
-			<p class="intro_paragraph"> Welcome! This website is solely dedicated to teaching anyone how to make homemade chocolate chip cookies. The recipe is easy and convienent step-by-step instructions to bake five dozen perfectly imperfect
+			<p id="intro_paragraph"> Welcome! This website is solely dedicated to teaching anyone how to make homemade chocolate chip cookies. The recipe is easy and convienent step-by-step instructions to bake five dozen perfectly imperfect
 				chocolate chip cookies for any occassion.</p>
 		</header>
 		<main>
@@ -87,6 +87,9 @@
 				});
 				$("#show").click(function() {
 					$("#ing").show();
+				});
+				$("#intro_paragraph").click(function() {
+					$("#intro_paragraph").html("Happy Baking!");
 				});
 			});
 
