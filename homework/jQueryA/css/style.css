@@ -45,3 +45,21 @@
   font-size: 14px;
   font-family: "Merriweather", serif;
 }
+#mixer {
+  width: 40%;
+}
+#spoon {
+  width: 20%;
+}
+#cup {
+  width: 20%;
+}
+#bowl {
+  width: 20%;
+}
+#sheet {
+  width: 20%;
+}
+#paper {
+  width: 20%;
+}
