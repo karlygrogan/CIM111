@@ -7,17 +7,24 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 	</head>
 
 	<body>
 		<header>
 			<h1 id="heading"> How to Make Chocolate Chip Cookies</h1>
 
-			<p id="intro_paragraph"> Welcome! This website is solely dedicated to teaching anyone how to make homemade chocolate chip cookies. <br>
+			<p id="intro_paragraph"> Welcome! This website is solely dedicated to teaching anyone how to make homemade chocolate chip cookies.<br>
 				The recipe provides easy and convienent step-by-step instructions to bake five dozen
 				chocolate chip cookies.</p>
-			<img src="images/cookie.jpg" alt="Cookie" id="cookiepic">
-
+			<section class="pic_grid">
+				<a data-fancybox="gallery" href="images/cookie.jpg"> <img src="images/cookie.jpg" alt="Cookie" class="cookiepics"> </a>
+				<a data-fancybox="gallery" href="images/cookie2.jpeg"><img src="images/cookie2.jpeg" alt="Cookie2" class="cookiepics"> </a>
+				<a data-fancybox="gallery" href="images/cookie3.jpg"> <img src="images/cookie3.jpg" alt="Cookie3" class="cookiepics"> </a>
+			</section>
 		</header>
 		<main>
 			<h1 class="TYNS"> Things You Need To Succeed</h1>
@@ -41,23 +48,40 @@
 			<h2 class="utensils">Utensils</h2>
 			<section class="grid_container1">
 				<figure>
-					<figcaption> Mixer, Hand Mixer, or Whisk</figcaption> <img src="images/mixers.jpg" alt="Mixers" id="mixer">
+					<figcaption> Mixer, Hand Mixer, or Whisk</figcaption>
+					<a data-fancybox="gallery" href="images/mixers.jpg">
+						<img src="images/mixers.jpg" alt="Mixers" id="mixer">
+					</a>
 				</figure>
 				<figure>
-					<figcaption> Measuring Spoons </figcaption> <img src="images/measuringspoons.jpg" alt="Spoons" id="spoon">
+					<figcaption> Measuring Spoons </figcaption>
+					<a data-fancybox="gallery" href="images/measuringspoons.jpg">
+						<img src="images/measuringspoons.jpg" alt="Spoons" id="spoon">
+					</a>
 				</figure>
 				<figure>
-					<figcaption> Measuring Cup </figcaption> <img src="images/measuringcup.jpg" alt="Cup" id="cup">
-				</figure>
-
-				<figure>
-					<figcaption> Two Bowls </figcaption> <img src="images/largebowl.jpg" alt="Large_Bowl" id="bowl">
-				</figure>
-				<figure>
-					<figcaption> Cookie Sheet </figcaption> <img src="images/sheet.jpg" alt="Sheet" id="sheet">
+					<figcaption> Measuring Cup </figcaption>
+					<a data-fancybox="gallery" href="images/measuringcup.jpg">
+						<img src="images/measuringcup.jpg" alt="Cup" id="cup">
+					</a>
 				</figure>
 				<figure>
-					<figcaption> Parchement Paper </figcaption> <img id="paper" src="images/paper.jpg" alt="Parchment_Paper">
+					<figcaption> Two Bowls </figcaption>
+					<a data-fancybox="gallery" href="images/largebowl.jpg">
+						<img src="images/largebowl.jpg" alt="Large_Bowl" id="bowl">
+					</a>
+				</figure>
+				<figure>
+					<figcaption> Cookie Sheet </figcaption>
+					<a data-fancybox="gallery" href="images/sheet.jpg">
+						<img src="images/sheet.jpg" alt="Sheet" id="sheet">
+					</a>
+				</figure>
+				<figure>
+					<figcaption> Parchement Paper </figcaption>
+					<a data-fancybox="gallery" href="images/paper.jpg">
+						<img id="paper" src="images/paper.jpg" alt="Parchment_Paper">
+					</a>
 				</figure>
 			</section>
 			<h1 id="instruction_heading"> Step-by-Step Instructions </h1>
@@ -83,9 +107,9 @@
 				<h2> Step 10: </h2>
 				<p id="10"> ENJOY! </p>
 			</section>
+
 		</main>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-		</script>
+		<script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
 		<script>
 			var imgBig = "no";
 			var headingClicked = "no";
@@ -205,6 +229,10 @@
 				});
 				$("#10").mouseover(function() {
 					$("#10").css("font-size", "20px");
+				});
+
+				$('[data-fancybox="gallery"]').fancybox({
+
 				});
 			});
 
