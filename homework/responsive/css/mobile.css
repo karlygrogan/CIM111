@@ -1,25 +1,22 @@
-@media only screen and (min-width:300px) and (max-width:700px) {
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    nav ul li {
-      display: block;
-      width: 60px;
-    }
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    display: block;
+    width: 60px;
+  }
 
-
-    div.grid_container2 {
+  div.grid_container2 {
     display: grid;
-    grid-template-columns:auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
-    width: 200;
-    height: 200;
-    }
+  }
 
-    div.grid_container3 {
-    float:left;
+  div.grid_container3 {
+    float: left;
     width: 100%;
-    }
+  }
 }
