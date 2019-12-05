@@ -35,25 +35,3 @@ li a {
   font-family: "Pridi", serif;
   font-size: 75px;
 }
-.mission {
-  font-size: 30px;
-  font-family: "Nanum Gothic", sans-serif;
-  font-weight: 900;
-}
-.statement {
-  font-family: "Nanum Gothic", sans-serif;
-  text-align: left;
-  font-size: 22px;
-  width: 100%;
-}
-#img2016 {
-  height: 300px;
-  width: 500px;
-}
-
-.grid_container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 100px;
-  padding: 10px;
-}
