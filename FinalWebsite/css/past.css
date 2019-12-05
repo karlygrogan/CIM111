@@ -1,0 +1,50 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 16px;
+}
+h1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 40px;
+}
+.grid_container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#pic2019 {
+  height: 400px;
+  width: 600px;
+}
+#pic2018 {
+  height: 400px;
+  width: 600px;
+}
+#pic2017 {
+  height: 400px;
+  width: 600px;
+}
+#pic2016 {
+  height: 400px;
+  width: 600px;
+}
+#pic2015 {
+  height: 400px;
+  width: 600px;
+}
