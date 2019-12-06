@@ -31,10 +31,7 @@ li a {
   margin-left: 10%;
   margin-right: auto;
 }
-#h1 {
-  font-family: "Pridi", serif;
-  font-size: 75px;
-}
+
 .mission {
   font-size: 30px;
   font-family: "Nanum Gothic", sans-serif;
@@ -46,14 +43,14 @@ li a {
   font-size: 22px;
   width: 100%;
 }
-#img2016 {
-  height: 300px;
-  width: 500px;
-}
 
-.grid_container {
+.grid_container-index {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 100px;
   padding: 10px;
+}
+#home_movie {
+  width: 500px;
+  height: 250px;
 }

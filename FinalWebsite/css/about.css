@@ -37,21 +37,18 @@ h1 {
 .grid_container1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 30px;
+  grid-column-gap: 50px;
   padding: 15px;
   text-align: left;
 }
 .grid_container2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 150px;
+  grid-column-gap: 100px;
   padding: 15px;
 }
-#aboutvideo {
-  height: 350px;
-  width: 310px;
-  margin-right: auto;
-  margin-left: auto;
+.about_text {
+  font-size: 20px;
 }
 
 #movie1 {
