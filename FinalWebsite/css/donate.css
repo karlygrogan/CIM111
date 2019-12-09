@@ -35,3 +35,13 @@ li a {
   font-family: "Pridi", serif;
   font-size: 75px;
 }
+.donategrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+  padding: 0px;
+}
+#thankyou {
+  width: 600px;
+  height: 300px;
+}
